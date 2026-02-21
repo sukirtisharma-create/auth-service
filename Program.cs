@@ -39,7 +39,7 @@ builder.Services.AddCors(options =>
             policy
                 .WithOrigins(
                     "http://localhost:3000",
-                    "https://photo-editor-ui.netlify.app" // 👈 ADD THIS
+                     "https://photoeditormicroservices.netlify.app"  // 👈 ADD THIS
                 )
                 .AllowAnyHeader()
                 .AllowAnyMethod();
